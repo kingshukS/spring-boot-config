@@ -1,0 +1,13 @@
+
+app:
+  description: "Welcome to ${app.name}"
+  greeting:
+    list: "One,Two,Three"
+    messages: "{English:'Hello',Spanish:'Hola',French:'Bonjour',German:'Hallo'}"
+  name: "My Demo App"
+management.endpoints.web.exposure.include: "*"
+my:
+  greeting: Hello
+  list.greeting: "One,Two,Three"
+  map.greeting: "{English:'Hello',Spanish:'Hola',French:'Bonjour',German:'Hallo'}"
+

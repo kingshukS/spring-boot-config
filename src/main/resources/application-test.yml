@@ -1,0 +1,13 @@
+
+app:
+  description: Welcome to ${app.name}
+  greeting:
+    list: One,Two,Three,Four,Five
+    messages: "{English:'Hello',Spanish:'Hola',French:'Bonjour',German:'Hallo'}"
+  name: My Testing App
+management.endpoints.web.exposure.include: "*"
+my:
+  greeting: Hello Testing App
+  list.greeting: One,Two,Three,Four,Five
+  map.greeting: "{English:'Hello',Spanish:'Hola',French:'Bonjour',German:'Hallo'}"
+server.port: 8084
